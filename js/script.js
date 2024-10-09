@@ -1,0 +1,1 @@
+console.log('hi the script is loaded')
