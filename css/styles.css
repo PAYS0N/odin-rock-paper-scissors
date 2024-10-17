@@ -1,3 +1,72 @@
-.css-test {
-    background-color: lime;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #254441;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.header {
+    flex: none;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #AE76A6;
+}
+
+.center {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #43AA8B;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.computer-scoreboard,
+.player-scoreboard{
+    display: flex;
+    gap: 5px;
+}
+
+.user-input{
+    margin: 16px;
+}
+
+.input-button {
+    color: #43AA8B;
+    padding: 16px 24px;
+}
+
+.outcome{
+    margin: 16px 0;
+    height: 50px;
+}
+
+.footer {
+    flex: none;
+    padding: 25px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #993955;
 }
